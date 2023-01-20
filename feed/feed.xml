@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>hellowebfm</title>
+	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	
+	<link href="https://wallowebfm.tech/feed/feed.xml" rel="self"/>
+	<link href="https://wallowebfm.tech"/>
+	<updated>2023-01-20T20:44:53Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Jacob Pawlik</name>
+		<email>jacob@derkuba.de</email>
+	</author>
+</feed>

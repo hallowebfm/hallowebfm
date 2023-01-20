@@ -1,0 +1,14 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "hellowebfm",
+  "language": "de",
+  "home_page_url": "https://wallowebfm.tech",
+  "feed_url": "https://example.com/feed/feed.json",
+  "description": "Die Seite für usneren Podcast",
+  "author": {
+    "name": "Jacob Pawlik",
+    "url": "https://derkuba.de"
+  },
+  "items": [
+  ]
+}

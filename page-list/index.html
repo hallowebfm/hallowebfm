@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hellowebfm</title>
+    <meta name="description" content="Die Seite für usneren Podcast">
+
+    <link rel="stylesheet" href="/template/css/bulma.min.css">
+    <link rel="stylesheet" href="/template/css/index.css">
+
+    <link rel="stylesheet" href="/template/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/template/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="hellowebfm">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="hellowebfm">
+  </head>
+  <body>
+
+    <header>
+    <div class="container">
+        <nav class="navbar is-transparent">
+            <div class="navbar-brand">
+                <a class="navbar-item navbar-brand__title " href="/">
+                    <img src="/template/img/halloweb_logo.svg" id="logo"/>
+                </a>
+
+                <div class="navbar-burger" data-target="navigation-items">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="navigation-items" class="navbar-menu">
+                <div class="navbar-end">
+                    
+                        <a class="navbar-item " 
+                    href="/">
+                            Home
+                        </a>
+                        <a class="navbar-item " 
+                    href="/content/impressum.html">
+                            Impressum
+                        </a>
+                        <a class="navbar-item " 
+                    href="/content/datenschutz.html">
+                            Datenschutzerklärung
+                        </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    
+<section class="section">
+    <div class="container">
+        <div class="content alignCenter marginTop30">
+            <h1> Herzlichen Willkommen bei Hallo Web - der Developer Podcast</h1>
+            <h4 class="marginTop30">Wir präsentieren wöchentlich einen Podcast zu verschiedenen Themen aus den Bereichen Webentwicklung, Dev-Tools, Developer-Excperience und Agitliät.</h4>
+        </div>
+
+        <hr/>
+        <div id="epdisodes" class="marginTop30"></div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="marginTop30">
+
+            <hr/>
+
+            <div class="content">
+
+                <h2 class="alignCenter">Team</h2>
+
+                <!-- daniel -->
+                <div class="columns marginTop30">
+                    <div class="column is-two-fifths">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/template/img/daniel.jpg" alt="Placeholder image" class="profilePicture">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-align-self-center">
+                        <div class="marginLeft25">
+
+                            <h4>Daniel Ebner</h4>
+                            <div>
+                                Bavaria ipsum dolor sit amet Gaudi hogg di hera Broadwurschtbudn, Jodler? Sei sog i muass schoo trihöleridi dijidiholleri, zua. Schüds nei und sei Schorsch du dadst ma scho daugn ognudelt Biaschlegl da a? Singd Weibaleid umananda nia need gwiss. Eam da om auf’n Gipfe Heimatland Mamalad. Vui huift vui Sauwedda Sepp hoggd nia de
+                            </div>
+                            <hr/>
+                            <p>github, linkedin, twitter</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- daniel ende -->
+
+                <hr class="hrSpacer"/>
+
+                <!-- bart -->
+                <div class="columns">
+
+                    <div class="column is-align-self-center">
+                        <div class="marginLeft25">
+
+                            <h4>Bartholmäus Kaminski</h4>
+                            <div>
+                                Bavaria ipsum dolor sit amet Gaudi hogg di hera Broadwurschtbudn, Jodler? Sei sog i muass schoo trihöleridi dijidiholleri, zua. Schüds nei und sei Schorsch du dadst ma scho daugn ognudelt Biaschlegl da a? Singd Weibaleid umananda nia need gwiss. Eam da om auf’n Gipfe Heimatland Mamalad. Vui huift vui Sauwedda Sepp hoggd nia de
+                            </div>
+                            <hr/>
+                            <p>github, linkedin, twitter</p>
+
+                        </div>
+                    </div>
+
+                    <div class="column is-two-fifths">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/template/img/bart.jpeg" alt="Placeholder image" class="profilePicture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bart ende -->
+
+                <hr class="hrSpacer"/>
+
+                <!-- kuba -->
+                <div class="columns">
+                    <div class="column is-two-fifths">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/template/img/kuba.jpg" alt="Placeholder image" class="profilePicture">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-align-self-center">
+                        <div class="marginLeft25">
+
+                            <h4>Jacob Pawlik</h4>
+                            <div>
+                                Bavaria ipsum dolor sit amet Gaudi hogg di hera Broadwurschtbudn, Jodler? Sei sog i muass schoo trihöleridi dijidiholleri, zua. Schüds nei und sei Schorsch du dadst ma scho daugn ognudelt Biaschlegl da a? Singd Weibaleid umananda nia need gwiss. Eam da om auf’n Gipfe Heimatland Mamalad. Vui huift vui Sauwedda Sepp hoggd nia de
+                            </div>
+                            <hr/>
+                            <p>github, linkedin, twitter</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- kuba ende -->
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="template/js/main.js"></script>
+
+    <footer class="footer">
+      <hr/>
+      <div class="content has-text-centered">
+        <p>
+          hallowebfm - 2023 - <a href="/content/impressum.html">Impressum</a>  - <a href="/content/datenschutz.html">Datenschutzerklärung</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Current page: /page-list/ -->
+  </body>
+</html>
