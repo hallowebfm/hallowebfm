@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>hellowebfm</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	<subtitle></subtitle>
 	
 	<link href="https://hallowebfm.tech/feed/feed.xml" rel="self"/>
 	<link href="https://hallowebfm.tech"/>
-	<updated>2023-01-23T08:30:49Z</updated>
-	<id>https://example.com/</id>
+	<updated>2023-01-26T10:23:28Z</updated>
+	<id></id>
 	<author>
 		<name>Jacob Pawlik</name>
 		<email>jacob@derkuba.de</email>

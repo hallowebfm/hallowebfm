@@ -3,8 +3,8 @@
   "title": "hellowebfm",
   "language": "de",
   "home_page_url": "https://hallowebfm.tech",
-  "feed_url": "https://example.com/feed/feed.json",
-  "description": "Hallo Web - der Developer Podcast",
+  "feed_url": "",
+  "description": "Aus dem dem Alltag von Software-Entwicklern. Wir sprechen wöchentlich über Themen zu Web-Technologien, agilem Arbeiten und Developer-Experience.",
   "author": {
     "name": "Jacob Pawlik",
     "url": "https://derkuba.de"
