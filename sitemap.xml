@@ -7,22 +7,22 @@
   </url>
   
   <url>
-    <loc>https://hallowebfm.tech/</loc>
-    <lastmod>2023-01-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hallowebfm.tech/tags/</loc>
-    <lastmod>2023-01-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hallowebfm.tech/content/impressum.html</loc>
     <lastmod>2023-01-28</lastmod>
   </url>
   
   <url>
+    <loc>https://hallowebfm.tech/</loc>
+    <lastmod>2023-01-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hallowebfm.tech/page-list/</loc>
+    <lastmod>2023-01-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hallowebfm.tech/tags/</loc>
     <lastmod>2023-01-28</lastmod>
   </url>
 </urlset>
