@@ -104,11 +104,15 @@
 
                             <h4>Daniel Ebner</h4>
                             <div>
-                                Bavaria ipsum dolor sit amet Gaudi hogg di hera Broadwurschtbudn, Jodler? Sei sog i muass schoo trihöleridi dijidiholleri, zua. Schüds nei und sei Schorsch du dadst ma scho daugn ognudelt Biaschlegl da a? Singd Weibaleid umananda nia need gwiss. Eam da om auf’n Gipfe Heimatland Mamalad. Vui huift vui Sauwedda Sepp hoggd nia de
+                                Seit mehr als 12 Jahren ist Daniel Software-Entwickler für
+                                unterschiedliche Unternehmen. Er hat sich auf
+                                Web-Technologien spezialisiert. Er bevorzugt  TypeScript als Fullstack-Sprache, um Frontends
+                                und Backends zu entwickeln. Besonderen Wert legt er auf
+                                agiles Vorgehen, kontinuierliche Verbesserung des Teams und
+                                stetige Erzeugung von Outcome.
                             </div>
                             <hr/>
-                            <p>github, linkedin, twitter</p>
-
+                            <a href="https://www.linkedin.com/in/daniel-ebner-018441160/">LinkedIn</a>
                         </div>
                     </div>
                 </div>
@@ -124,11 +128,13 @@
 
                             <h4>Bartholmäus Kaminski</h4>
                             <div>
-                                Bavaria ipsum dolor sit amet Gaudi hogg di hera Broadwurschtbudn, Jodler? Sei sog i muass schoo trihöleridi dijidiholleri, zua. Schüds nei und sei Schorsch du dadst ma scho daugn ognudelt Biaschlegl da a? Singd Weibaleid umananda nia need gwiss. Eam da om auf’n Gipfe Heimatland Mamalad. Vui huift vui Sauwedda Sepp hoggd nia de
+				Egal ob Frontend-, Backend- oder DevOps, Bart fühlt sich seit über 12 Jahren in allen Bereichen des Softwarestacks wohl. Er sorgt dafür, dass die Anwendungen gut zusammenspielen und die bestmögliche Performance erbringen. Bart schaut gerne über den Tellerrand und experimentiert dabei mit unterschiedlichen Technologien und Sprachen.
                             </div>
                             <hr/>
-                            <p>github, linkedin, twitter</p>
-
+                            <p>
+                                <a href="https://github.com/tranquille">Github</a>,
+                                <a href="https://www.linkedin.com/in/bartholom%C3%A4us-kaminski-783165198">LinkedIn</a>
+                            </p>
                         </div>
                     </div>
 
@@ -180,8 +186,9 @@
 
 
 <script>
-    const e="https://anchor.fm/s/d8bc85e4/podcast/rss",t='<div class="column"></div>',n=({title:e,description:t,link:n,imageUrl:s,season:i,episode:a})=>`<div class="column">\n                <div class="card">\n                    <div class="card-image">\n                    <a href="${n}">\n                        <figure class="image is-4by3">\n                            <img src="${s}" />\n                        </figure>\n                        </a>\n                    </div>\n                    <div class="card-content">\n                        <div class="media">\n                          \n                            <div class="media-content">\n                                <p class="title is-4"> ${e}</p>\n                                <p class="subtitle is-6">\n                                  Staffel <strong>${i}</strong> \n                                  Folge <strong>${a}</strong >\n                                </p>\n                            </div>\n                        </div>\n\n                        <div class="content">\n                        ${t}\n                        </div>\n                    </div>\n                </div>\n            </div>`,s=e=>`<div class="columns is-desktop">${e.join(" ")}</div>`,i=e=>{let i="",a=[];return e.forEach(((o,l)=>{if(a.push(n(o)),(l+1)%3==0&&(i+=s(a),a=[]),l===e.length-1){const e=3-a.length;if(e>0)for(let n=0;n<e;n++)a.push(t);i+=s(a)}})),i},a=e=>{document.getElementById("epdisodes").innerHTML=e};fetch(e).then((function(e){return e.text()})).then((function(e){const t=[...(new DOMParser).parseFromString(e,"text/xml").getElementsByTagName("item")].map((e=>({title:e.getElementsByTagName("title")[0].textContent,description:e.getElementsByTagName("description")[0].textContent,link:e.getElementsByTagName("link")[0].textContent,imageUrl:e.getElementsByTagName("itunes:image")[0].getAttribute("href"),season:e.getElementsByTagName("itunes:season")[0].textContent,episode:e.getElementsByTagName("itunes:episode")[0].textContent}))),n=i(t);var s;s=n,document.getElementById("epdisodes").innerHTML=s})).catch((function(e){console.log("Cannot request the rss of the podcast")}));
+    const e="https://anchor.fm/s/d8bc85e4/podcast/rss",t='<div class="column"></div>',n=({title:e,description:t,link:n,imageUrl:s,season:i,episode:a})=>`<div class="column displayGrid">\n                <div class="card">\n                    <div class="card-image">\n                    <a href="${n}">\n                        <figure class="image is-4by3">\n                            <img src="${s}" />\n                        </figure>\n                        </a>\n                    </div>\n                    <div class="card-content">\n                        <div class="media">\n                          \n                            <div class="media-content">\n                                <p class="title is-4"> ${e}</p>\n                                <p class="subtitle is-6">\n                                  Staffel <strong>${i}</strong> \n                                  Folge <strong>${a}</strong >\n                                </p>\n                            </div>\n                        </div>\n\n                        <div class="content">\n                        ${t}\n                        </div>\n                    </div>\n                </div>\n            </div>`,s=e=>`<div class="columns is-desktop">${e.join(" ")}</div>`,i=e=>{let i="",a=[];return e.forEach(((o,l)=>{if(a.push(n(o)),(l+1)%3==0&&(i+=s(a),a=[]),l===e.length-1){const e=3-a.length;if(e>0)for(let n=0;n<e;n++)a.push(t);i+=s(a)}})),i},a=e=>{document.getElementById("epdisodes").innerHTML=e};fetch(e).then((function(e){return e.text()})).then((function(e){const t=[...(new DOMParser).parseFromString(e,"text/xml").getElementsByTagName("item")].map((e=>({title:e.getElementsByTagName("title")[0].textContent,description:e.getElementsByTagName("description")[0].textContent,link:e.getElementsByTagName("link")[0].textContent,imageUrl:e.getElementsByTagName("itunes:image")[0].getAttribute("href"),season:e.getElementsByTagName("itunes:season")[0].textContent,episode:e.getElementsByTagName("itunes:episode")[0].textContent}))),n=i(t);var s;s=n,document.getElementById("epdisodes").innerHTML=s})).catch((function(e){console.log("Cannot request the rss of the podcast")}));
 </script>
+
 
     <footer class="footer">
       <hr/>
